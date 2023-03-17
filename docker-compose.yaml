@@ -1,0 +1,16 @@
+# docker-compose.yml
+version: "3"
+services:
+  frontend:
+    container_name: restaurant
+    build:
+      context: ./fe
+      dockerfile: Dockerfile
+    ports:
+      - "4500:4500"
+    # restart: unless-stopped
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    volumes:
+      - ./fe/node_modules:/usr/app/node_modules
+      - ./fe:/usr/app

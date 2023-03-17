@@ -1,0 +1,20 @@
+body {
+    // overflow-y: hidden !important;
+    overflow-x: hidden !important;
+}
+.input-feedback {
+    color: red;
+}
+.me {
+    background-color: white;
+
+    border-color: red;
+}
+.ant-input-disabled {
+    color: red;
+}
+.you {
+    background-color: white;
+    color: red;
+    border-color: red;
+}

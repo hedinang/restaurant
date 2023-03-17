@@ -1,0 +1,28 @@
+.container {
+    background-color: #333333;
+    color: #8c8989;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
+.item {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+@media screen and (max-width: 450px) {
+    .container {
+        background-color: #333333;
+        color: #8c8989;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px 20px 0px;
+    }
+    .item {
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,32 @@
+.container {
+    overflow: hidden;
+    height: 650px;
+}
+.ant-carousel .slick-dots li button {
+    background: #364d79;
+    opacity: 0.4;
+    width: 40px;
+    height: 20px;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+    opacity: 1;
+    background: #364d79;
+}
+.intro-desktop {
+    background-color: #002a56;
+}
+@media (max-width: 900px) {
+    .intro-desktop {
+        display: none;
+    }
+}
+
+.intro-mobile {
+    background-color: #002a56;
+}
+@media (min-width: 900px) {
+    .intro-mobile {
+        display: none;
+    }
+}

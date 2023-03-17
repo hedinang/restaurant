@@ -1,0 +1,11 @@
+.nav-center {
+    display: flex;
+    align-items: center;
+}
+.nav-center li {
+    display: flex !important;
+    align-items: center !important;
+}
+.out-right-menu {
+    justify-content: end;
+}

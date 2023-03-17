@@ -1,0 +1,23 @@
+.container {
+    background-color: #464643;
+    border-radius: 4px 4px 0 0;
+    bottom: 0;
+    right: 75px;
+    height: 35px;
+    position: fixed;
+    text-align: center;
+    width: 48px;
+    // opacity: 0;
+    z-index: 100000;
+    // transition: opacity .4s ease-in-out,background .2s ease-in-out;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+@media (max-height: 920px) {
+    .container {
+        display: none;
+    }
+}
