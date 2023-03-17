@@ -3,6 +3,7 @@ import { Button, Col, Drawer, Image, Row } from "antd";
 import MiniMenu from "./MiniMenu";
 import styles from './nav.module.scss'; // Import css modules stylesheet as styles
 import { MenuOutlined } from "@ant-design/icons";
+import logo from '../../asset/logo.png'
 
 const Navbar = () => {
     const [rightVisible, setRightVisible] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = () => {
     return (
         <>
             <div className={styles['nav-container']}>
-                <img className={styles.img} src='https://kokkari.com/wp-content/uploads/kokkari-logo-350.png' />
+                <img className={styles.img} src={logo} />
                 {/* <div className={styles['nav-header']}> */}
                 <ul className={styles['nav-header']}>
                     {category.map(e => {
